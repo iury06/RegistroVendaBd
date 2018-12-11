@@ -20,8 +20,8 @@ public class ConexãoSQL {
     public ResultSet rs;//responsavel por armazenar o resultado de uma pesquisa passada para o Statement
     private String driver = "org.postgresql.Driver";
     private String caminho = "jdbc:postgresql://localhost:5432/db_RegistroVendas";
-    private String usuario = "postgres";
-    private String senha = "postgres";
+    private String usuario = "*****";
+    private String senha = "*****";
    public Connection con;//responsavel por realizar conexão com bd
    
    public void conexão() { //metodo responsavel por fazer a conexão com banco de dados
